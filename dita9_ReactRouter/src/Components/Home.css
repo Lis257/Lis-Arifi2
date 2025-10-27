@@ -1,0 +1,30 @@
+.home-container {
+  display: flex;
+  justify-content: space-between; /* spreads items evenly */
+  flex-wrap: wrap;                /* allows wrapping on smaller screens */
+  width: 70%;                     /* occupies 70% of the screen */
+  margin: 0 auto;                 /* centers the container */
+}
+
+.home-section {
+  flex: 1 1 30%;                  /* allows each section to take ~30% of the container */
+  margin: 10px;                   /* adds spacing between sections */
+  text-align: center;
+}
+
+.home-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.home-section h1 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.home-section p {
+  margin-top: 8px;
+  font-size: 1em;
+  color: #555;
+}

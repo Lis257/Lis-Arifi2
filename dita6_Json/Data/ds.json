@@ -1,0 +1,9 @@
+{
+    "list": [
+        {"id": 1, "name": "Lis", "age": 20, "city": "Tirana"},
+        {"id": 2, "name": "Fazli", "age": 21, "city": "Shkodra"},
+        {"id": 3, "name": "Albatris", "age": 22, "city": "Durres"},
+        {"id": 4, "name": "Arlind", "age": 23, "city": "Vlora"}
+        
+    ]
+}

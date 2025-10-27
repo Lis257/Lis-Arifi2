@@ -1,0 +1,28 @@
+nav {
+  position: fixed;       /* Sticks to the top */
+  top: 0;
+  left: 0;
+  width: 100%;           /* Full width */
+  background-color: #333;
+  padding: 1rem;
+  z-index: 1000;         /* Keeps it above other content */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #ffcc00;
+}

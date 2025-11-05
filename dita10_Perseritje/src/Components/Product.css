@@ -1,0 +1,30 @@
+.product-container {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+  font-family: Arial, sans-serif;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.product-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.product-image {
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+}

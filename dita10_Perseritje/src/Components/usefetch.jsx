@@ -25,11 +25,31 @@ function usefetch(url)
                   setLoading(false);
                 })
             }, [])
+             const deleteButton = (id) => {
+                const newlist = list.filter(list => list.id != id);
+                setList(newlist);
+            }
+            const viewButton = (id) => {
+                    const newlist2 = list.filter(list => list.id == id);
+                    setList(newlist2);
+                }
+
+            const editButton = (updatedItem) => {
+                const updatedList = list.map(item =>
+                    item.id === updatedItem.id ? updatedItem : item
+                  );
+                  setList(updatedList);
+                };
+
 
   return{
     list,
     error,
-    loading
+    loading,
+    deleteButton,
+    viewButton,
+    editButton,
+
   }
 }
 

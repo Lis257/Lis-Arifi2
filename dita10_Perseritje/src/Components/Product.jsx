@@ -6,6 +6,7 @@ function Product() {
     list,
     deleteButton,
     viewButton,
+    editButton,
     error,
     loading
     } = usefetch("http://localhost:3000/list")

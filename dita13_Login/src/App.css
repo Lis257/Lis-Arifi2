@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+body, html, #root, .App {
+  height: 100%;
+}
+
+/* Background */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 20px;
+}
+
+/* Login container */
+.login-container {
+  background: #f59292;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.6s ease;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #283e51;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4b79a1;
+  outline: none;
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4b79a1;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3a6382;
+}
+
+/* Status messages */
+.error,
+.success {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  animation: fadeIn 0.4s ease;
+}
+
+.error {
+  background: #ffe5e5;
+  color: #d9534f;
+  border: 1px solid #d9534f;
+}
+
+.success {
+  background: #e3f8e6;
+  color: #3c763d;
+  border: 1px solid #3c763d;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
